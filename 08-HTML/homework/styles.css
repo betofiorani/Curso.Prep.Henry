@@ -1,0 +1,82 @@
+body {
+
+    background-image: url('https://colegioleondegreiffcalarca.com/wp-content/uploads/2013/09/Abstract-Blue-backgrounds-40.jpg');
+
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    display: block;
+}
+
+#contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+          
+}
+
+
+.clear{
+    clear: left;
+}
+
+.divClass {
+    width: 100%;
+    background: white;
+    margin: 10px auto;
+}
+
+#div2 {
+    padding: 10px 0px 10px 0px;
+    background-color: lightgray;
+}
+
+#thirdDiv {
+    width: 500px;
+    height: 600px;
+    background: blue;
+    padding: 50px;
+    border: 5px;
+    border: black 10px solid;
+}
+
+h1 {
+    color: blue;
+    padding: 0px;
+    margin: 0px;
+}
+
+h3 {
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+}
+h4 {
+    margin-top: 10px;
+    padding: 0px;
+    font-size: 12px;
+}
+
+img {
+    width: 400px;
+    float: right;
+}
+
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
+.spanLI {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+li{
+    display: inline-block;
+    margin-bottom: 20px;
+}
